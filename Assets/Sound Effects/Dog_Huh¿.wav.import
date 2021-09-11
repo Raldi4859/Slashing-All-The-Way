@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Dog_Huh¿.wav-382e97cd4ea7b7b8cf7576db7fca26df.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Dog_Huh¿.wav"
+dest_files=[ "res://.import/Dog_Huh¿.wav-382e97cd4ea7b7b8cf7576db7fca26df.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

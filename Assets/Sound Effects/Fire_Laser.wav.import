@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Fire_Laser.wav-1e9c1263f9a24dea874d68490718590b.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Fire_Laser.wav"
+dest_files=[ "res://.import/Fire_Laser.wav-1e9c1263f9a24dea874d68490718590b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

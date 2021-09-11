@@ -1,0 +1,60 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Scripts/YourDead.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Musics/AdhesiveWombat - Night Shade.mp3" type="AudioStream" id=2]
+
+[node name="YourDead" type="Control"]
+pause_mode = 2
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 0.749146
+margin_right = 0.749146
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -75.1748
+margin_top = -52.5244
+margin_right = 68.8252
+margin_bottom = 33.4756
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RestartButton" type="Button" parent="VBoxContainer"]
+margin_right = 146.0
+margin_bottom = 20.0
+focus_neighbour_top = NodePath("../QuitButton")
+text = "Restart"
+
+[node name="ReturnButton" type="Button" parent="VBoxContainer"]
+margin_top = 24.0
+margin_right = 146.0
+margin_bottom = 44.0
+focus_neighbour_bottom = NodePath("../StartButton")
+text = "Return to Main Menu"
+
+[node name="Title" type="RichTextLabel" parent="."]
+margin_left = 385.531
+margin_top = 118.175
+margin_right = 456.531
+margin_bottom = 146.175
+rect_scale = Vector2( 3.82572, 3.35347 )
+text = "Your Dead"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BGMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+volume_db = -10.0
+autoplay = true
+
+[connection signal="pressed" from="VBoxContainer/RestartButton" to="." method="_on_RestartButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/ReturnButton" to="." method="_on_ReturnButton_pressed"]

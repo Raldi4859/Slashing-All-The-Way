@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Call.wav-a5cdc367e698158d0b80b5be430d45ec.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Call.wav"
+dest_files=[ "res://.import/Call.wav-a5cdc367e698158d0b80b5be430d45ec.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

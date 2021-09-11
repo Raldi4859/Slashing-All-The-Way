@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Alarm.wav-f8db4f96c2c0b8bb3b2193ab66081460.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Alarm.wav"
+dest_files=[ "res://.import/Alarm.wav-f8db4f96c2c0b8bb3b2193ab66081460.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

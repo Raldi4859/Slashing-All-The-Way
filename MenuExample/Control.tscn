@@ -1,0 +1,194 @@
+[gd_scene load_steps=11 format=2]
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://RobotoMono-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 36
+font_data = SubResource( 1 )
+
+[sub_resource type="DynamicFontData" id=3]
+font_path = "res://RobotoMono-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=4]
+size = 10
+font_data = SubResource( 3 )
+
+[sub_resource type="DynamicFontData" id=5]
+font_path = "res://RobotoMono-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=6]
+size = 20
+font_data = SubResource( 5 )
+
+[sub_resource type="DynamicFontData" id=7]
+font_path = "res://RobotoMono-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=8]
+size = 18
+font_data = SubResource( 7 )
+
+[sub_resource type="DynamicFontData" id=9]
+font_path = "res://RobotoMono-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=10]
+size = 10
+font_data = SubResource( 9 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.815686, 0.854902, 0.929412, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Menu" type="MarginContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/margin_right = 110
+custom_constants/margin_top = 25
+custom_constants/margin_left = 110
+custom_constants/margin_bottom = 25
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="ColorRect" parent="Menu"]
+margin_left = 110.0
+margin_top = 25.0
+margin_right = 914.0
+margin_bottom = 575.0
+color = Color( 0.180392, 0.827451, 1, 1 )
+
+[node name="Menu&Title" type="MarginContainer" parent="Menu"]
+margin_left = 110.0
+margin_top = 25.0
+margin_right = 914.0
+margin_bottom = 575.0
+custom_constants/margin_right = 30
+custom_constants/margin_top = 35
+custom_constants/margin_left = 30
+custom_constants/margin_bottom = 35
+
+[node name="Menu&TitleVbox" type="VBoxContainer" parent="Menu/Menu&Title"]
+margin_left = 30.0
+margin_top = 35.0
+margin_right = 774.0
+margin_bottom = 515.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Title" type="Label" parent="Menu/Menu&Title/Menu&TitleVbox"]
+margin_right = 744.0
+margin_bottom = 48.0
+size_flags_horizontal = 3
+size_flags_vertical = 0
+custom_fonts/font = SubResource( 2 )
+text = "Title Menu"
+align = 1
+
+[node name="Menu - Margin" type="MarginContainer" parent="Menu/Menu&Title/Menu&TitleVbox"]
+margin_top = 52.0
+margin_right = 744.0
+margin_bottom = 480.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/margin_right = 15
+custom_constants/margin_top = 40
+custom_constants/margin_left = 15
+
+[node name="Menu  - Hbox" type="HBoxContainer" parent="Menu/Menu&Title/Menu&TitleVbox/Menu - Margin"]
+margin_left = 15.0
+margin_top = 40.0
+margin_right = 729.0
+margin_bottom = 428.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button A" type="Button" parent="Menu/Menu&Title/Menu&TitleVbox/Menu - Margin/Menu  - Hbox"]
+margin_top = 368.0
+margin_right = 72.0
+margin_bottom = 388.0
+size_flags_horizontal = 0
+size_flags_vertical = 8
+custom_fonts/font = SubResource( 4 )
+text = "Press Here"
+
+[node name="Options - Vbox" type="VBoxContainer" parent="Menu/Menu&Title/Menu&TitleVbox/Menu - Margin/Menu  - Hbox"]
+margin_left = 76.0
+margin_right = 638.0
+margin_bottom = 388.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Pilihan - Vbox" type="VBoxContainer" parent="Menu/Menu&Title/Menu&TitleVbox/Menu - Margin/Menu  - Hbox/Options - Vbox"]
+margin_right = 562.0
+margin_bottom = 119.0
+size_flags_horizontal = 3
+size_flags_vertical = 0
+custom_constants/separation = 10
+
+[node name="NewGame" type="Button" parent="Menu/Menu&Title/Menu&TitleVbox/Menu - Margin/Menu  - Hbox/Options - Vbox/Pilihan - Vbox"]
+margin_right = 562.0
+margin_bottom = 33.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 6 )
+text = "New Game"
+
+[node name="NewGame2" type="Button" parent="Menu/Menu&Title/Menu&TitleVbox/Menu - Margin/Menu  - Hbox/Options - Vbox/Pilihan - Vbox"]
+margin_top = 43.0
+margin_right = 562.0
+margin_bottom = 76.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 6 )
+text = "Load Game"
+
+[node name="NewGame3" type="Button" parent="Menu/Menu&Title/Menu&TitleVbox/Menu - Margin/Menu  - Hbox/Options - Vbox/Pilihan - Vbox"]
+margin_top = 86.0
+margin_right = 562.0
+margin_bottom = 119.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 6 )
+text = "Reset"
+
+[node name="Pilihan - Hbox" type="HBoxContainer" parent="Menu/Menu&Title/Menu&TitleVbox/Menu - Margin/Menu  - Hbox/Options - Vbox"]
+margin_top = 358.0
+margin_right = 562.0
+margin_bottom = 388.0
+size_flags_horizontal = 3
+size_flags_vertical = 10
+
+[node name="Option" type="Button" parent="Menu/Menu&Title/Menu&TitleVbox/Menu - Margin/Menu  - Hbox/Options - Vbox/Pilihan - Hbox"]
+margin_right = 279.0
+margin_bottom = 30.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 8 )
+text = "Options"
+
+[node name="Option2" type="Button" parent="Menu/Menu&Title/Menu&TitleVbox/Menu - Margin/Menu  - Hbox/Options - Vbox/Pilihan - Hbox"]
+margin_left = 283.0
+margin_right = 562.0
+margin_bottom = 30.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 8 )
+text = "Quit"
+
+[node name="Button B" type="Button" parent="Menu/Menu&Title/Menu&TitleVbox/Menu - Margin/Menu  - Hbox"]
+margin_left = 642.0
+margin_top = 368.0
+margin_right = 714.0
+margin_bottom = 388.0
+size_flags_horizontal = 0
+size_flags_vertical = 8
+custom_fonts/font = SubResource( 10 )
+text = "Press Here"

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Big_Crash.wav-a2c9bcc719fbc8cd57726b85d846acb0.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Big_Crash.wav"
+dest_files=[ "res://.import/Big_Crash.wav-a2c9bcc719fbc8cd57726b85d846acb0.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

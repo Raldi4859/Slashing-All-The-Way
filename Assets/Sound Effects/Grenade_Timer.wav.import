@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Grenade_Timer.wav-f4d7ec0744bf0408d7f36c829feebefd.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Grenade_Timer.wav"
+dest_files=[ "res://.import/Grenade_Timer.wav-f4d7ec0744bf0408d7f36c829feebefd.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

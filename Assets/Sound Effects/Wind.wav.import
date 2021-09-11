@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Wind.wav-e20eacf61a29b00712dd5e92cc39583b.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Wind.wav"
+dest_files=[ "res://.import/Wind.wav-e20eacf61a29b00712dd5e92cc39583b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

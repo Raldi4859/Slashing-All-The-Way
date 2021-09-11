@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Huge_laser.wav-8e015fff27daa7bd654cea1191179c2d.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Huge_laser.wav"
+dest_files=[ "res://.import/Huge_laser.wav-8e015fff27daa7bd654cea1191179c2d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

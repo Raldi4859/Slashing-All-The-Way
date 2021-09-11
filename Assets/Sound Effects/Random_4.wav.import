@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Random_4.wav-9616f68c6efb42b07733c5ed30e38b8b.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Random_4.wav"
+dest_files=[ "res://.import/Random_4.wav-9616f68c6efb42b07733c5ed30e38b8b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

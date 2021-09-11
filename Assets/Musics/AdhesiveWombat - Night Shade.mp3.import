@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/AdhesiveWombat - Night Shade.mp3-2e875263da33873907ebd96337ba78b0.mp3str"
+
+[deps]
+
+source_file="res://Assets/Musics/AdhesiveWombat - Night Shade.mp3"
+dest_files=[ "res://.import/AdhesiveWombat - Night Shade.mp3-2e875263da33873907ebd96337ba78b0.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

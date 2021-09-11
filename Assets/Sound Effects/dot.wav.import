@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/dot.wav-aa0f86a951ddd72c4a78f4b9477d5de3.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/dot.wav"
+dest_files=[ "res://.import/dot.wav-aa0f86a951ddd72c4a78f4b9477d5de3.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

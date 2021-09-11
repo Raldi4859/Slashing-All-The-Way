@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Shoot_Med.wav-3554588ba2628e52a583b2b9030cbc71.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Shoot_Med.wav"
+dest_files=[ "res://.import/Shoot_Med.wav-3554588ba2628e52a583b2b9030cbc71.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

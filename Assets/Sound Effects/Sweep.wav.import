@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Sweep.wav-95dfdcc3f8e955e885a4aa8f77e4bfc5.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Sweep.wav"
+dest_files=[ "res://.import/Sweep.wav-95dfdcc3f8e955e885a4aa8f77e4bfc5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
